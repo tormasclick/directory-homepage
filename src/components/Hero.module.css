@@ -1,0 +1,130 @@
+.heroTitle {
+  font-family: 'Chillax', sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 84px;
+  color: #10106D;
+  max-width: 624px;
+}
+
+.searchBar {
+  display: inline-flex;
+  padding: 8px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 48rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .searchBar {
+    flex-wrap: nowrap;
+  }
+}
+
+.desktopInputs {
+  display: none;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .desktopInputs {
+    display: flex;
+  }
+}
+
+.mobileInputContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .mobileInputContainer {
+    display: none;
+  }
+}
+
+.mobileInput {
+  font-family: 'Campton', sans-serif;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #DEDEDE;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  padding-right: 2.5rem;
+}
+
+.mobileSearchIcon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 0.5rem;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 220px; /* Default for Doctors Conditions */
+}
+
+.inputContainerNarrow {
+  max-width: 170px; /* width for Locations and Insurance */
+}
+
+.input {
+  font-family: 'Campton', sans-serif;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #000;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  padding-left: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.divider {
+  border-left: 1px solid #D1D5DB;
+  height: 28px;
+  margin: 0 8px;
+  align-self: center;
+}
+
+.searchButton {
+  font-family: 'Chillax', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: #10106D;
+  color: #00F5C1;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #00F5C1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+@media (min-width: 768px) {
+  .searchButton {
+    display: flex;
+  }
+}
