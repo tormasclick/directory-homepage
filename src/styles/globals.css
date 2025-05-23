@@ -449,7 +449,7 @@ body {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
-  line-height: 57px; /* 335.294% */
+  line-height: 57px; 
   text-transform: uppercase;
 }
 
@@ -584,7 +584,7 @@ body {
   font-size: 38px;
   font-style: normal;
   font-weight: 600;
-  line-height: 57px; /* 150% */
+  line-height: 57px; 
 }
 
 .top-rated-clinics-subtitle {
@@ -593,7 +593,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 150% */
+  line-height: 36px; 
   letter-spacing: -0.48px;
 }
 
@@ -616,7 +616,7 @@ body {
   font-size: 14.549px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21.824px; /* 150% */
+  line-height: 21.824px;
   letter-spacing: -0.291px;
 }
 
@@ -625,7 +625,7 @@ body {
   font-size: 14.549px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21.824px; /* 150% */
+  line-height: 21.824px; 
   letter-spacing: -0.291px;
 }
 
@@ -634,7 +634,7 @@ body {
   font-size: 12.471px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21.824px; /* 175% */
+  line-height: 21.824px; 
   letter-spacing: -0.249px;
 }
 
@@ -643,7 +643,7 @@ body {
   font-size: 14.549px;
   font-style: normal;
   font-weight: 400;
-  line-height: 21.824px; /* 150% */
+  line-height: 21.824px; 
   letter-spacing: -0.291px;
 }
 
@@ -671,7 +671,7 @@ body {
 }
 
 .why-choose-tymira-right {
-  min-height: 300px; /* Ensure the image has a minimum height */
+  min-height: 300px; 
 }
 
 .why-choose-tymira-title {
@@ -679,7 +679,7 @@ body {
   font-size: 38px;
   font-style: normal;
   font-weight: 600;
-  line-height: 57px; /* 150% */
+  line-height: 57px; 
   text-align: left;
   letter-spacing: -2px;
 }
@@ -689,7 +689,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 29.016px; /* 161.2% */
+  line-height: 29.016px; 
   letter-spacing: -0.36px;
   text-align: left;
 }
@@ -705,12 +705,12 @@ body {
 
 @media (max-width: 640px) {
   .why-choose-tymira-left {
-    padding: 40px 20px; /* Reduce padding for mobile */
+    padding: 40px 20px; 
     gap: 8px;
   }
 
   .why-choose-tymira-title {
-    font-size: 28px; /* Reduce font size for mobile */
+    font-size: 28px; 
     line-height: 42px;
   }
 
@@ -726,7 +726,7 @@ body {
   }
 
   .why-choose-tymira-right {
-    min-height: 200px; /* Adjust image height for mobile */
+    min-height: 200px;
   }
 }
 
@@ -735,7 +735,7 @@ body {
   font-family: 'Campton', sans-serif;
   font-size: 38px;
   font-weight: 600;
-  line-height: 57px; /* 150% */
+  line-height: 57px;
   font-style: normal;
   color: var(--primary-1, #10106D);
   text-align: left;
@@ -745,7 +745,7 @@ body {
   font-family: 'Campton', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   letter-spacing: -0.48px;
   font-style: normal;
   color: #000;
@@ -756,7 +756,7 @@ body {
   font-family: 'Campton', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 29.016px; /* 161.2% */
+  line-height: 29.016px; 
   letter-spacing: -0.36px;
   font-style: normal;
   color: #000;
@@ -776,7 +776,7 @@ body {
   font-family: 'Campton', sans-serif;
   font-size: 38px;
   font-weight: 600;
-  line-height: 57px; /* 150% */
+  line-height: 57px; 
   font-style: normal;
   color: var(--primary-1, #10106D);
   text-align: left;
@@ -786,7 +786,7 @@ body {
   font-family: 'Campton', sans-serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
   letter-spacing: -0.48px;
   font-style: normal;
   color: #000;
@@ -796,7 +796,7 @@ body {
   font-family: 'Campton', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 29.016px; /* 161.2% */
+  line-height: 29.016px; 
   letter-spacing: -0.36px;
   font-style: normal;
   color: #000;

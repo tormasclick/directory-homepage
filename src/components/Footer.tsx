@@ -1,15 +1,13 @@
 'use client';
 
-import React from 'react'; // Optional: for older React versions
+import React from 'react'; 
 import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-[#10106D] text-white">
       <div className="container mx-auto px-6 sm:px-8 py-12">
-        {/* Upper Part: Columns 1–5 */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-8">
-          {/* Column 1: Logo & Newsletter */}
           <div className="flex flex-col gap-6 text-center lg:text-left">
             <Image
               src="/images/footer/logo-footer.svg"
@@ -95,12 +93,9 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Lower Part: Columns 2–5 */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
-          {/* Empty first column to align with Column 2 of upper part */}
           <div className="hidden lg:block lg:col-span-1"></div>
 
-          {/* Column 2: Products */}
           <div className="flex flex-col gap-8 text-center lg:text-left">
             <h3 className="footer-title">PRODUCTS</h3>
             <ul className="space-y-2">
