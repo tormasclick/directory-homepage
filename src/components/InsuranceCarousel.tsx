@@ -50,7 +50,7 @@ const InsuranceCarousel: React.FC = () => {
             className="hidden sm:flex absolute left-[-16px] top-1/2 transform -translate-y-1/2 w-12 h-12 p-2 rounded-full bg-gray-100 hover:bg-gray-200 focus:outline-none z-30"
             aria-label="Previous slide"
           >
-            <img
+            <Image
               src="/images/left-icon.svg"
               alt="Previous"
               width={35}
@@ -85,7 +85,7 @@ const InsuranceCarousel: React.FC = () => {
             className="hidden sm:flex absolute right-[-16px] top-1/2 transform -translate-y-1/2 w-12 h-12 p-2 rounded-full bg-gray-100 hover:bg-gray-200 focus:outline-none z-30"
             aria-label="Next slide"
           >
-            <img
+            <Image
               src="/images/right-icon.svg"
               alt="Next"
               width={35}
@@ -95,7 +95,6 @@ const InsuranceCarousel: React.FC = () => {
             />
           </button>
 
-          {/* Three Dots */}
           <div className="carousel-dots">
             <span className="dot"></span>
             <span className="dot active"></span>

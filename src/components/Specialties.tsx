@@ -47,7 +47,6 @@ const Specialties: React.FC = () => {
   return (
     <section className="flex-shrink-0 bg-[#FAFAFA] w-full max-w-[1272px] specialties-container mx-auto">
       <div className="container mx-auto p-6 flex flex-col sm:flex-row items-start sm:p-8">
-        {/* Left Section */}
         <div className="w-full sm:w-2/5 flex flex-col justify-start">
           <h2 className="text-[32px] sm:text-[38px] font-semibold leading-[48px] sm:leading-[57px] text-[#10106D] font-campton">
             Explore our<br />
@@ -60,8 +59,6 @@ const Specialties: React.FC = () => {
             View All Our Specialties
           </button>
         </div>
-
-        {/* Right Section (Scrollable Cards) */}
         <div className="w-full sm:w-3/5 flex flex-col mt-6 sm:mt-0">
           <div className="relative">
             <div ref={scrollRef} className="flex overflow-x-auto scroll-smooth gap-4 pb-4 hide-scrollbar">

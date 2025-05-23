@@ -8,10 +8,7 @@ import WhyChooseTymira from '../components/WhyChooseTymira';
 import Testimonial from '../components/Testimonial';
 import FAQ from '../components/FAQ';
 import Newsletter from '../components/Newsletter';
-import Footer from '../components/Footer'; // Add Footer import
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import Footer from '../components/Footer'; 
 
 const Home: React.FC = () => {
   return (
@@ -28,8 +25,7 @@ const Home: React.FC = () => {
       <Testimonial />
       <FAQ />
       <Newsletter />
-      <Footer /> {/* Add Footer component */}
-     
+      <Footer /> 
     </>
   );
 };
