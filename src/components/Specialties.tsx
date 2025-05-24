@@ -31,7 +31,7 @@ const specialtiesData = [
 ];
 
 const Specialties: React.FC = () => {
-  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [currentIndex, setCurrentIndex] = useState<number>(0); // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const handlePrev = (): void => {
